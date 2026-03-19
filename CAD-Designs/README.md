@@ -1,1 +1,1 @@
-This folder contains my CAD designs created using SolidWorks.
+This folder contains my CAD designs created using SolidWorks. 
