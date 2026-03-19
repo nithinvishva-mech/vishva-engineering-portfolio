@@ -1,18 +1,16 @@
 -- Basic SQL Practice
-
--- Select all
+--Using Select all Command
 SELECT * FROM students;
 
--- Filter
+--Using Filter  Command
 SELECT * FROM students WHERE marks > 80;
 
--- Order
+-- Using Order Command
 SELECT * FROM students ORDER BY marks DESC;
 
--- Group By
+-- Using Group By Command
 SELECT department, COUNT(*) FROM students GROUP BY department;
-
--- Join
+-- Using Join Command
 SELECT s.name, d.department_name
 FROM students s
 JOIN departments d
